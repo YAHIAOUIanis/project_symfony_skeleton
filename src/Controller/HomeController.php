@@ -14,7 +14,7 @@ use Symfony\Component\HttpFoundation\Response;
 class HomeController
 {
 
-    public function HomeController(){
+    public function homePage(){
         return new Response("My first Symfony php !");
     }
 
