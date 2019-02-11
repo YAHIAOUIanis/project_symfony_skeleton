@@ -22,4 +22,12 @@ class HomeController
         return new Response("My first Symfony php !");
     }
 
+
+    /**
+     * @Route("/article/{id}")
+     */
+    public function read($id){
+        return new Response("en cours!".$id);
+    }
+
 }
